@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context=".order.menu.KlandestinMenu.Masa1.KlandestinBurgeri.KlandestinChickenBurgerAndCartofiFryNDip1Activity">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/iv_cart"
+        android:text="Cart:"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_cart"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/ic_baseline_shopping_cart_24"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/klandestin_chicken_burger_si_cartofi_fry_n_dip_iv"
+        android:layout_width="271dp"
+        android:layout_height="276dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_back"
+        app:srcCompat="@drawable/klandestin_chicken_burger_si_cartofi_fry_n_dip" />
+
+    <TextView
+        android:id="@+id/tv_burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="BURGER:"
+        android:textColor="#FF6813"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/klandestin_chicken_burger_si_cartofi_fry_n_dip_iv" />
+
+    <TextView
+        android:id="@+id/tv_klandestin_chicken_burger_si_cartofi_fry_n_dip_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Chicken Burger and cartofi fry ’n’ dip"
+        android:textColor="#091020"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_burger"
+        app:layout_constraintTop_toBottomOf="@+id/tv_burger" />
+
+    <TextView
+        android:id="@+id/tv_cant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="2dp"
+        android:text="350g"
+        android:textColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_klandestin_chicken_burger_si_cartofi_fry_n_dip_" />
+
+    <TextView
+        android:id="@+id/tv_descriere"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/gray"
+        android:text="Chiflă, șnițel din piept de pui, bacon, sos mayo, sos klandestin, salată, roșie, ceapă roșie, castraveți murați, cartofi prăjiți"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cant" />
+
+    <TextView
+        android:id="@+id/tv_alergeni"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:text="Alergeni:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_descriere" />
+
+    <TextView
+        android:id="@+id/tv_lista_alergeni"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/gray"
+        android:text="Derivate din lapte, gluten din grâu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_alergeni" />
+
+
+    <ImageView
+        android:id="@+id/minus_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/img_add_to_cart"
+        app:srcCompat="@drawable/ic_minus" />
+
+    <TextView
+        android:id="@+id/tv_cantitate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="1"
+        android:textColor="#272670"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/minus_iv"
+        app:layout_constraintStart_toEndOf="@+id/minus_iv"
+        app:layout_constraintTop_toTopOf="@+id/minus_iv" />
+
+    <ImageView
+        android:id="@+id/plus_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_cantitate"
+        app:layout_constraintStart_toEndOf="@+id/tv_cantitate"
+        app:layout_constraintTop_toTopOf="@+id/tv_cantitate"
+        app:srcCompat="@drawable/ic_plus" />
+
+    <TextView
+        android:id="@+id/tv_pret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="39"
+        android:textColor="#272670"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/plus_iv"
+        app:layout_constraintEnd_toStartOf="@+id/tv_ron"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintTop_toTopOf="@+id/plus_iv" />
+
+    <TextView
+        android:id="@+id/tv_ron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="RON"
+        android:textColor="#272670"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/plus_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/plus_iv" />
+
+    <ImageView
+        android:id="@+id/img_add_to_cart"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_group_1675" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

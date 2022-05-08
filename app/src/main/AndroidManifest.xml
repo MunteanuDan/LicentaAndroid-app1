@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.ase.firebaseauthlicenta" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FirebaseAuthLicenta"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseAuthLicenta" >
+        <activity android:name=".MainActivity2" >
+        </activity>
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinSpaghete.KlandestinSpagheteFormagiAndPere3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinSpaghete.KlandestinSpagheteFormagiAndPere2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinSpaghete.KlandestinSpagheteCarbonara3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinSpaghete.KlandestinSpagheteCarbonara2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinSpaghete.KlandestinPennePollo3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinSpaghete.KlandestinPennePollo2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinPizza.KlandestinPizzaVeggie3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinPizza.KlandestinPizzaVeggie2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinPizza.KlandestinPizzaMargherita3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinPizza.KlandestinPizzaMargherita2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinPizza.KlandestinPizzaCapricciosa3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinPizza.KlandestinPizzaCapricciosa2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinBurgeri.KlandestinChickenBurgerAndCartofiFryNDip3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinBurgeri.KlandestinChickenBurgerAndCartofiFryNDip2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinBurgeri.KlandestinCheeseburgerBlackAngusSiCartofiFryNDip3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinBurgeri.KlandestinCheeseburgerBlackAngusSiCartofiFryNDip2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinBurgeri.KlandestinBurgerBlackAngusSiCartofiFryNDip3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinBurgeri.KlandestinBurgerBlackAngusSiCartofiFryNDip2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinSpaghete3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinSpaghete2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinBurgeri3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinPizza3Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinPizza2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinBurgeri2Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinSpaghete.KlandestinSpagheteFormagiAndPere1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinSpaghete.KlandestinSpagheteCarbonara1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinSpaghete.KlandestinPennePollo1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinPizza.KlandestinPizzaVeggie1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinPizza.KlandestinPizzaMargherita1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinPizza.KlandestinPizzaCapricciosa1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinBurgeri.KlandestinChickenBurgerAndCartofiFryNDip1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinBurgeri.KlandestinCheeseburgerBlackAngusSiCartofiFryNDip1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinBurgeri.KlandestinBurgerBlackAngusSiCartofiFryNDip1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinSpaghete1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinPizza1Activity" />
+        <activity android:name=".order.menu.KlandestinMenu.Masa1.KlandestinBurgeri1Activity" />
+        <activity android:name=".order.NrMasaComenzi.Klandestin.Masa3MenuKlandestin" />
+        <activity android:name=".order.NrMasaComenzi.Klandestin.Masa2MenuKlandestin" />
+        <activity android:name=".order.NrMasaComenzi.Klandestin.Masa1MenuKlandestin" />
+        <activity android:name=".order.ListaComenziMese.Klandestin.ListaComenziMasa3KlandestinActivity" />
+        <activity android:name=".order.ListaComenziMese.Klandestin.ListaComenziMasa2KlandestinActivity" />
+        <activity android:name=".order.ListaComenziMese.Klandestin.ListaComenziMasa1KlandestinActivity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSupe.XanaduSupaDePuiCuGaluste3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSupe.XanaduCiorbaDeVacuta3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSupe.XanaduCiorbaDeFasoleCuAfumatura3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSpaghete.XanaduSpagheteCarbonara3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSpaghete.XanaduSpagheteBolognese3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSpaghete.XanaduPenneQuatroFormaggi3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSalate.XanaduSalataMexicana3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSalate.XanaduSalataMediteraneana3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSalate.XanaduSalataCaesar3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSupe3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSpaghete3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa3.XanaduSalate3Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSupe.XanaduSupaDePuiCuGaluste2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSupe.XanaduCiorbaDeVacuta2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSupe.XanaduCiorbaDeFasoleCuAfumatura2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSpaghete.XanaduSpagheteCarbonara2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSpaghete.XanaduSpagheteBolognese2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSpaghete.XanaduPenneQuatroFormaggi2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSalate.XanaduSalataMexicana2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSalate.XanaduSalataMediteraneana2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSalate.XanaduSalataCaesar2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSupe2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSpaghete2Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa2.XanaduSalate2Activity" />
+        <activity android:name=".order.ComandaFinalizataActivity" />
+        <activity android:name=".order.ListaComenziMese.Xanadu.ListaComenziMasa3XanaduActivity" />
+        <activity android:name=".order.ListaComenziMese.Xanadu.ListaComenziMasa2XanaduActivity" />
+        <activity android:name=".order.ListaComenziMese.Xanadu.ListaComenziMasa1XanaduActivity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSupe.XanaduSupaDePuiCuGaluste1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSupe.XanaduCiorbaDeVacuta1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSupe.XanaduCiorbaDeFasoleCuAfumatura1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSpaghete.XanaduSpagheteCarbonara1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSpaghete.XanaduSpagheteBolognese1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSpaghete.XanaduPenneQuatroFormaggi1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSalate.XanaduSalataMexicana1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSalate.XanaduSalataMediteraneana1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSalate.XanaduSalataCaesar1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSupe1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSpaghete1Activity" />
+        <activity android:name=".order.menu.XanaduMenu.Masa1.XanaduSalate1Activity" />
+        <activity android:name=".order.NrMasaComenzi.Xanadu.Masa3MenuXanadu" />
+        <activity android:name=".order.NrMasaComenzi.Xanadu.Masa2MenuXanadu" />
+        <activity android:name=".order.NrMasaComenzi.Xanadu.Masa1MenuXanadu" />
+        <activity android:name=".order.SelectareMasaRestaurant.NumarMasaXanadu" />
+        <activity android:name=".order.SelectareMasaRestaurant.NumarMasaKlandestin" />
+        <activity android:name=".order.SelectareMasaRestaurant.NumarMasaCasaDante" />
+        <activity android:name=".order.SelectareMasaRestaurant.NumarMasaCasaAnca" />
+        <activity android:name=".order.MainOrderActivity" />
+        <activity android:name=".ListaComenzi" />
+        <activity android:name=".MeseActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".NrMasaRezervari.Masa3Activity" />
+        <activity android:name=".NrMasaRezervari.Masa2Activity" />
+        <activity android:name=".NrMasaRezervari.Masa1Activity" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".password.ResetPasswordActivity" />
+        <activity android:name=".password.ChangePasswordActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".signup.SignupActivity" />
+        <activity android:name=".login.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

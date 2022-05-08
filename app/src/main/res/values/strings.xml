@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">androidCursuri10Firebase</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="enter_correct_email">Enter Correct Email</string>
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="user_create_successfully">User create successfully</string>
+    <string name="signup_failed">Signup Failed: %1$s</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="failed_to_update_profile">Failed to update Profile %1$s</string>
+    <string name="permission_required">Access permission is required</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="remove_picture">Remove Picture</string>
+    <string name="photo_removed_successfully">Photo removed successfully</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="password_changed_successfully">Password Changed Successfully</string>
+    <string name="something_went_wrong">Something went wrong: %1$s</string>
+    <string name="reset_password_instructions">Password instructions has been sent on email: %1$s</string>
+    <string name="retry">Retry</string>
+    <string name="close">Close</string>
+    <string name="email_sent_failed">Failed to send email: %1$s</string>
+    <string name="resend_timer">Resend in: %1$s</string>
+    <string name="loading">Please wait...</string>
+    <string name="no_internet">Check Internet Connection</string>
+    <string name="chat">Chat</string>
+    <string name="requests">Requests</string>
+    <string name="find">Find</string>
+
+    <string name="masa_1">Masa 1</string>
+    <string name="masa_2">Masa 2</string>
+    <string name="masa_3">Masa 3</string>
+
+    <string name="lv_row_default_value">-</string>
+    <string name="xanadu">Xanadu</string>
+    <string name="casa_anca">Casa Anca</string>
+    <string name="casa_dante">Casa Dante</string>
+    <string name="klandestin">Klandestin</string>
+    <string name="spaghete">Spaghete</string>
+    <string name="salata">Salata</string>
+    <string name="supe">Supe</string>
+    <string name="spaghete_carbonara">Spaghete carbonara</string>
+    <string name="spaghete_bolognese">Spaghete bolognese</string>
+    <string name="penne_quatro_formaggi">Penne quatro formaggi</string>
+    <string name="salata_caesar">Salata Caesar</string>
+    <string name="salata_mediteraneana">Salata Mediteraneana</string>
+    <string name="salata_mexicana">Salata Mexicana</string>
+    <string name="salata_mexicana_cu_ton">Salata mexicana cu ton</string>
+    <string name="supa_de_pui_cu_galuste">Supa de pui cu galuste</string>
+    <string name="ciorba_de_fasole_cu_afumatura">Ciorba de fasole cu afumatura</string>
+    <string name="ciorba_de_vacuta">Ciorba de vacuta</string>
+
+
+    <string-array name="mese">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
