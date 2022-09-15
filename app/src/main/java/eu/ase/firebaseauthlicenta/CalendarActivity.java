@@ -76,6 +76,8 @@ public class CalendarActivity extends AppCompatActivity {
                     }
                 });
 
+                calendarView.setMinDate(System.currentTimeMillis() - 1000);
+
             }
 
             @Override

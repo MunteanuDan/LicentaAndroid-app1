@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="eu.ase.firebaseauthlicenta" >
+    package="eu.ase.firebaseauthlicenta">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -13,9 +13,8 @@
         android:label="FirebaseAuthLicenta"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FirebaseAuthLicenta" >
-        <activity android:name=".MainActivity2" >
-        </activity>
+        android:theme="@style/Theme.FirebaseAuthLicenta">
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinSpaghete.KlandestinSpagheteFormagiAndPere3Activity" />
         <activity android:name=".order.menu.KlandestinMenu.Masa2.KlandestinSpaghete.KlandestinSpagheteFormagiAndPere2Activity" />
         <activity android:name=".order.menu.KlandestinMenu.Masa3.KlandestinSpaghete.KlandestinSpagheteCarbonara3Activity" />
@@ -103,8 +102,6 @@
         <activity android:name=".order.NrMasaComenzi.Xanadu.Masa1MenuXanadu" />
         <activity android:name=".order.SelectareMasaRestaurant.NumarMasaXanadu" />
         <activity android:name=".order.SelectareMasaRestaurant.NumarMasaKlandestin" />
-        <activity android:name=".order.SelectareMasaRestaurant.NumarMasaCasaDante" />
-        <activity android:name=".order.SelectareMasaRestaurant.NumarMasaCasaAnca" />
         <activity android:name=".order.MainOrderActivity" />
         <activity android:name=".ListaComenzi" />
         <activity android:name=".MeseActivity" />
@@ -118,14 +115,13 @@
         <activity android:name=".password.ChangePasswordActivity" />
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".signup.SignupActivity" />
-        <activity android:name=".login.LoginActivity" >
+        <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

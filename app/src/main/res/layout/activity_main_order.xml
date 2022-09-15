@@ -59,56 +59,6 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/Casa_Anca_mt2"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <ImageView
-                    android:id="@+id/Casa_anca_iv"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/casa_anca"
-                    android:scaleType="centerCrop">
-                </ImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/casa_anca"
-                    android:textColor="@color/white"
-                    android:textSize="50sp"
-                    android:layout_gravity="center"
-                    android:textStyle="italic">
-                </TextView>
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/Casa_Dante_mt3"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <ImageView
-                    android:id="@+id/Casa_dante_iv"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/casa_dante"
-                    android:scaleType="centerCrop">
-                </ImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/casa_dante"
-                    android:textColor="@color/white"
-                    android:textSize="50sp"
-                    android:layout_gravity="center"
-                    android:textStyle="italic">
-                </TextView>
-            </com.google.android.material.card.MaterialCardView>
-
-            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/Klandestin_mt4"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"

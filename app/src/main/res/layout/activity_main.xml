@@ -8,31 +8,30 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+  <Button
+      android:id="@+id/Book_btn"
+      android:text="Book"
+      android:backgroundTint="@color/black"
+      android:textColor="@color/white"
+      android:textSize="40sp"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_weight="1"/>
 
-    <Button
-        android:id="@+id/Book_btn"
-        android:text="Book"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_weight="1"/>
-
-    <Button
-        android:id="@+id/Order_btn"
-        android:text="Order"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="@id/Book_btn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_weight="1"/>
+  <Button
+      android:id="@+id/Order_btn"
+      android:text="Order"
+      android:backgroundTint="@color/white"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:layout_constraintEnd_toEndOf="@id/Book_btn"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_weight="1"/>
 
 </LinearLayout>

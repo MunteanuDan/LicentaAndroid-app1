@@ -3,6 +3,8 @@
     <color name="colorPrimary">#FFBB86FC</color>
     <color name="colorPrimaryDark">#FFBB86FC</color>
     <color name="colorAccent">#FFBB86FC</color>
+    <color name="colorRed">#dc0005 </color>
+    <color name="colorTurquoise">#33CC99</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
